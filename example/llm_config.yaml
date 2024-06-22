@@ -1,0 +1,4 @@
+benchmarks:
+  - name: cpu
+    api_key: none
+    model_id: llama3-8b-it

@@ -1,0 +1,11 @@
+[
+    {
+      "role": "system",
+      "content": "Repharse the following text using simple English"
+    },
+    {
+      "role": "user",
+      "content": "This benchmark is used for testing TPS (Tokens Per Seconds) over any OpenAI compatible server"
+    }
+  ]
+  

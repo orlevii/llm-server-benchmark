@@ -9,6 +9,15 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.9"
 openai = "^1.35.3"
+pydantic = "^2.7.4"
+pyyaml = "^6.0.1"
+click = "^8.1.7"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.10"
+
+[tool.poetry.scripts]
+llm_server_benchmark = 'llm_server_benchmark.cli:cli'
 
 [build-system]
 requires = ["poetry-core"]
