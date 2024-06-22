@@ -3,9 +3,7 @@ from pydantic import BaseModel, ConfigDict
 
 
 class BenchmarkConfig(BaseModel):
-    model_config = ConfigDict(
-            protected_namespaces=()
-        )
+    model_config = ConfigDict(protected_namespaces=())
 
     name: str
     base_url: Optional[str] = None
